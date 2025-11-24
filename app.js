@@ -1,5 +1,7 @@
-/*
-  Rama: feature/login
-  Fecha: 24/11/2025
-  Descripción: Aquí irá el código de la funcionalidad de login.
-*/
+function login(usuario, clave) {
+  if (usuario === "sancocho" && clave === "pantostado") {
+    return "Acceso concedido";
+  } else {
+    return "Acceso denegado";
+  }
+}
